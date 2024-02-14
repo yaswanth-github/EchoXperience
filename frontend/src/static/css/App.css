@@ -1,0 +1,150 @@
+/* Set background color */
+body {
+  background-color: #000;
+  font-family: Arial, sans-serif;
+
+}
+
+/* Navbar styles */
+nav, nav.hero-nav {
+  background-color: white;
+  color: black;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.logo img {
+  width: 180px;
+  height: 90px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  margin-right: 1rem;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Hero nav styles */
+.hero-nav {
+  background-color: #333;
+  color: white;
+  padding: 259px;
+}
+
+/* Main content styles */
+.main-content {
+  background-image: url('https://images.pexels.com/photos/8347501/pexels-photo-8347501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-position: center;
+  color: #9ac7d5;
+  padding: 250px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Call-to-action buttons */
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-button {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 50px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #ca4747;
+}
+
+/* Projects Section */
+.projects{
+  background-color: #000;
+  color: #9ac7d5;
+  padding: 250px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Footer Styles */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  background-color: #ffffff;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.footer-section h3 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul {
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-section li {
+  margin: 0 0.5rem;
+}
+.footer-section li :hover{
+  color: #ca4747;
+}
+
+.footer-section a {
+  color: #000000;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    margin: 1rem 0;
+  }
+}
